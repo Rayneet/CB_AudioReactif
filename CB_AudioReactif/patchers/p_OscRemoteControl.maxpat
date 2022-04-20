@@ -40,6 +40,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.313725490196078, 0.925490196078431, 1.0, 1.0 ],
+					"fontface" : 1,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -0.020611047744751, 5.474227786064148, 159.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -0.020611047744751, 0.474227786064148, 200.0, 20.0 ],
+					"text" : "Remote Control",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
 					"id" : "obj-12",
 					"linecount" : 2,
@@ -48,7 +64,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 528.979388952255249, 287.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.020611047744751, 266.474227786064148, 199.0, 20.0 ],
+					"presentation_rect" : [ -0.020611047744751, 289.474227786064148, 199.0, 20.0 ],
 					"text" : "Print debug from Remote Control"
 				}
 
@@ -63,7 +79,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 540.260869026184082, 339.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.020611047744751, 294.474227786064148, 199.0, 199.0 ]
+					"presentation_rect" : [ -0.020611047744751, 317.474227786064148, 199.0, 199.0 ]
 				}
 
 			}
@@ -213,7 +229,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 694.260869026184082, 0.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.020611047744751, -0.525772213935852, 200.0, 20.0 ],
+					"presentation_rect" : [ -0.020611047744751, 22.474227786064148, 200.0, 20.0 ],
 					"text" : "OSC Receive port"
 				}
 
@@ -229,7 +245,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 694.260869026184082, 44.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 154.979388952255249, 27.474227786064148, 43.0, 43.0 ]
+					"presentation_rect" : [ 155.979388952255249, 50.474227786064148, 43.0, 43.0 ]
 				}
 
 			}
@@ -291,7 +307,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 772.260869026184082, 166.0, 147.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.020611047744751, 27.474227786064148, 152.0, 43.0 ],
+					"presentation_rect" : [ -0.020611047744751, 50.474227786064148, 152.0, 43.0 ],
 					"text" : "8001"
 				}
 
@@ -341,7 +357,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 276.0, 0.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.020611047744751, 166.52475917339325, 199.0, 20.0 ],
+					"presentation_rect" : [ -0.020611047744751, 189.52475917339325, 199.0, 20.0 ],
 					"text" : "OSC Send port"
 				}
 
@@ -355,7 +371,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 78.0, 0.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.020611047744751, 79.52475917339325, 199.0, 20.0 ],
+					"presentation_rect" : [ -0.020611047744751, 102.52475917339325, 199.0, 20.0 ],
 					"text" : "OSC Send IP address"
 				}
 
@@ -394,7 +410,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 78.0, 65.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 154.979388952255249, 106.52475917339325, 43.0, 43.0 ]
+					"presentation_rect" : [ 155.979388952255249, 129.52475917339325, 43.0, 43.0 ]
 				}
 
 			}
@@ -408,8 +424,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 78.0, 95.0, 147.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.020611047744751, 106.52475917339325, 152.0, 43.0 ],
-					"text" : "192.168.50.15"
+					"presentation_rect" : [ -0.020611047744751, 129.52475917339325, 152.0, 43.0 ],
+					"text" : "192.168.50.243"
 				}
 
 			}
@@ -422,7 +438,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 200.0, 96.0, 35.0 ],
-					"text" : "host 192.168.50.15"
+					"text" : "host 192.168.50.243"
 				}
 
 			}
@@ -460,7 +476,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 276.0, 65.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 154.979388952255249, 195.52475917339325, 43.0, 43.0 ]
+					"presentation_rect" : [ 155.979388952255249, 218.52475917339325, 43.0, 43.0 ]
 				}
 
 			}
@@ -474,7 +490,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 276.0, 95.0, 147.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.020611047744751, 195.52475917339325, 152.0, 43.0 ],
+					"presentation_rect" : [ -0.020611047744751, 218.52475917339325, 152.0, 43.0 ],
 					"text" : "8000"
 				}
 

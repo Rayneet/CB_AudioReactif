@@ -242,14 +242,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
+					"bgcolor" : [ 0.313725490196078, 0.925490196078431, 1.0, 1.0 ],
+					"fontface" : 1,
 					"id" : "obj-294",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 258.400778770446777, 152.759758472442627, 150.0, 20.0 ],
+					"patching_rect" : [ 258.400778770446777, 152.759758472442627, 157.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.722123920917511, 0.551724374294281, 200.0, 20.0 ],
+					"presentation_rect" : [ 0.722123920917511, 0.551724374294281, 199.0, 20.0 ],
 					"text" : "OSC Master Clock",
 					"textjustification" : 1
 				}
@@ -308,7 +309,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 0.722123920917511, 29.574540436267853, 199.0, 33.0 ],
-					"text" : "Send Data Through OSC (30 Hz default)"
+					"text" : "Send Data Through OSC (60 Hz default)"
 				}
 
 			}

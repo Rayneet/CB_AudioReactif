@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 547.0, 79.0, 960.0, 661.0 ],
+		"rect" : [ 50.0, 79.0, 1468.0, 839.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -620,7 +620,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1033.685773611068726, 566.70481288433075, 50.0, 35.0 ],
-					"text" : "0.121345"
+					"text" : "0.241613"
 				}
 
 			}
@@ -738,7 +738,7 @@
 					"patching_rect" : [ 1228.706877946853638, 1552.014774739742279, 84.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 218.276363611221313, 160.235843912314522, 101.0, 22.0 ],
-					"text" : "0.498723"
+					"text" : "0.165814"
 				}
 
 			}
@@ -1163,7 +1163,7 @@
 					"patching_rect" : [ 974.860739231109619, 1552.014774739742279, 84.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 111.776363611221313, 160.235843912314522, 101.0, 22.0 ],
-					"text" : "0.617884"
+					"text" : "0.164826"
 				}
 
 			}
@@ -7398,7 +7398,7 @@
 					"patching_rect" : [ 5238.37717068195343, 716.176721334457397, 72.077921867370605, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 816.315616369247437, 358.148299098014832, 101.0, 22.0 ],
-					"text" : "3.445583"
+					"text" : "1.073737"
 				}
 
 			}
@@ -7424,7 +7424,7 @@
 					"patching_rect" : [ 4997.37717068195343, 716.176721334457397, 67.5, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 709.815616369247437, 358.148299098014832, 101.0, 22.0 ],
-					"text" : "3.845313"
+					"text" : "2.817255"
 				}
 
 			}
@@ -9698,7 +9698,7 @@
 					"patching_rect" : [ 4144.58300518989563, 461.398946523666382, 50.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 816.315616369247437, 90.237621243930789, 100.870967626571655, 22.0 ],
-					"text" : "0.020606"
+					"text" : "0.030722"
 				}
 
 			}
@@ -9986,7 +9986,7 @@
 					"patching_rect" : [ 3865.58300518989563, 461.398946523666382, 50.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 709.815616369247437, 90.237621243930789, 102.0, 22.0 ],
-					"text" : "0.021027"
+					"text" : "0.023784"
 				}
 
 			}
@@ -10295,7 +10295,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2507.204434752464294, 771.898879289627075, 59.0, 22.0 ],
-					"text" : "0.118064"
+					"text" : "0.129854"
 				}
 
 			}
@@ -10440,7 +10440,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2297.273630619049072, 638.484362125396729, 196.341466903686523, 35.0 ],
-					"text" : "0.016005 0.016289 0.006806 0.004263 0.002184 0.000912"
+					"text" : "0.001991 0.001511 0.001613 0.002035 0.002788 0.001603"
 				}
 
 			}
@@ -11326,7 +11326,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 5,
 					"presentation_rect" : [ 409.815597772598267, 401.018234435581235, 281.5, 76.0 ],
-					"text" : "0.088664 0.176437 0.430699 1. 0.272205 0.527171 0.191537 0.404553 0.038807 0.486744 0.142631 0.295025 0.142643 0.162897 0.189298 0.136434 0.069077 0.029403 0.030614 0.016005 0.016289 0.006806 0.004263 0.002184 0.000912"
+					"text" : "0.073856 0.108517 0.163124 0.149953 0.008884 0.081399 0.21344 0.27216 0.048989 0.10227 0.051671 0.097934 0.028236 0.016023 0.027083 0.025603 0.018212 0.004817 0.005336 0.001991 0.001511 0.001613 0.002035 0.002788 0.001603"
 				}
 
 			}
@@ -11831,7 +11831,7 @@
 					"patching_rect" : [ 1734.330398976802826, 323.33333158493042, 62.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 516.315597772598267, 118.337059766054153, 100.870967626571655, 22.0 ],
-					"text" : "0.216121"
+					"text" : "0.052844"
 				}
 
 			}
@@ -11845,7 +11845,7 @@
 					"patching_rect" : [ 1530.330398976802826, 323.33333158493042, 62.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 409.815597772598267, 118.337059766054153, 101.0, 22.0 ],
-					"text" : "0.19199"
+					"text" : "0.07656"
 				}
 
 			}
@@ -12040,7 +12040,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 490.096062421798706, 579.525324940681458, 50.0, 35.0 ],
-					"text" : "0.105025"
+					"text" : "0.201742"
 				}
 
 			}
@@ -16531,6 +16531,105 @@
 					"source" : [ "obj-999", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "zsa.easy_bark~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.abs_bark~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.easy_centroid~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.abs_centroid~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.easy_skewness~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.abs_skewness~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.easy_slope~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.abs_slope~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.easy_spread~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.abs_spread~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.bark~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.centroid~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.skewness~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.slope~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.spread~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fiddle~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

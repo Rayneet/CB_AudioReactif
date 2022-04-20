@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 489.0, 640.0, 480.0 ],
+		"rect" : [ 271.0, 268.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,22 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.313725490196078, 0.925490196078431, 1.0, 1.0 ],
+					"fontface" : 1,
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 93.0, -1.413389682769775, 163.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, -0.413389682769775, 486.068421052631606, 20.0 ],
+					"text" : "Animation Control",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
@@ -95,9 +111,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 451.586610317230225, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.310526315789502, 255.586610317230225, 161.378947368421024, 20.0 ],
+					"presentation_rect" : [ 0.310526315789502, 240.586610317230225, 161.378947368421024, 20.0 ],
 					"text" : "Start Animation",
-					"textjustification" : 1
+					"textjustification" : 0
 				}
 
 			}
@@ -111,7 +127,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 276.0, 48.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 320.0, 161.689473684210526, 161.689473684210526 ]
+					"presentation_rect" : [ 0.0, 289.0, 161.689473684210526, 161.689473684210526 ]
 				}
 
 			}
@@ -136,7 +152,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 276.0, 96.0, 29.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.310526315789502, 288.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 0.310526315789502, 264.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -162,7 +178,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 129.310526315789474, 106.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 324.378947368421052, 59.0, 161.689473684210554, 161.689473684210554 ]
+					"presentation_rect" : [ 324.378947368421052, 68.0, 161.689473684210554, 161.689473684210554 ]
 				}
 
 			}
@@ -176,7 +192,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 64.155263157894737, 106.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.689473684210526, 59.0, 161.689473684210526, 161.689473684210526 ]
+					"presentation_rect" : [ 161.689473684210526, 68.0, 161.689473684210526, 161.689473684210526 ]
 				}
 
 			}
@@ -190,7 +206,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -1.0, 106.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 59.0, 161.689473684210526, 161.689473684210526 ]
+					"presentation_rect" : [ 0.0, 68.0, 161.689473684210526, 161.689473684210526 ]
 				}
 
 			}
@@ -203,9 +219,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2010.058193743228912, 268.363414794206619, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 2.586610317230225, 486.068421052631606, 20.0 ],
+					"presentation_rect" : [ 0.0, 21.586610317230225, 486.068421052631606, 20.0 ],
 					"text" : "Load Phase",
-					"textjustification" : 1
+					"textjustification" : 0
 				}
 
 			}
@@ -218,7 +234,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 129.310526315789474, 154.0, 29.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 324.378947368421052, 28.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 324.378947368421052, 44.0, 29.5, 22.0 ],
 					"text" : "3"
 				}
 
@@ -232,7 +248,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 64.155263157894737, 154.0, 29.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.689473684210526, 28.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 161.689473684210526, 44.0, 29.5, 22.0 ],
 					"text" : "2"
 				}
 
@@ -258,7 +274,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -1.0, 154.0, 29.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 0.0, 44.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
