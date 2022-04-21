@@ -872,20 +872,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "zsa.easy_bark~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.abs_bark~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "zsa.easy_centroid~.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
@@ -964,10 +950,6 @@
 			}
 , 			{
 				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.bark~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
