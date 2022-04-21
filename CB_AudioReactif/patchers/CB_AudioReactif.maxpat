@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 11,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -928,6 +928,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "zsa.easy_bark~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "zsa.abs_bark~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "p_AnimationPresets.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
@@ -973,7 +987,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "analyzer~.mxo",
+				"name" : "zsa.bark~.mxo",
 				"type" : "iLaX"
 			}
  ],
