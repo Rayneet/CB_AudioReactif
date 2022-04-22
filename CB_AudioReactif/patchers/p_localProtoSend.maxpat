@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 346.876071929931641, 356.999987483024597, 116.0, 22.0 ],
-					"text" : "maxqueuesize 1024"
+					"text" : "maxqueuesize 2048"
 				}
 
 			}

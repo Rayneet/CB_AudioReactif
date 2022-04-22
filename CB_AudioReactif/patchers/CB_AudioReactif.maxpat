@@ -111,13 +111,13 @@
 					"id" : "obj-175",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "p_AudioAnalyserV2.maxpat",
+					"name" : "p_AudioAnalyserV4.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1437.368419170379639, 0.0, 338.000005006790161, 896.571446895599365 ],
+					"patching_rect" : [ 1437.368419170379639, 0.0, 1097.000005006790161, 384.571446895599365 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1675.181125254069457, -1.469188675831901, 1590.311310052871704, 676.682559728622437 ],
+					"presentation_rect" : [ 1675.044589757919312, 0.0, 1086.311310052871704, 374.511426687240601 ],
 					"viewvisibility" : 1
 				}
 
@@ -865,77 +865,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p_AudioAnalyserV2.maxpat",
+				"name" : "p_AudioAnalyserV4.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "zsa.easy_centroid~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.abs_centroid~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.easy_skewness~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.abs_skewness~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.easy_slope~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.abs_slope~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.easy_spread~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.abs_spread~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.easy_bark~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zsa.abs_bark~.maxpat",
+				"name" : "audioAnalysers~.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/CB_AudioReactif/CB_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -967,27 +904,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "zsa.centroid~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.skewness~.mxo",
+				"name" : "zsa.mel~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "zsa.slope~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.spread~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fiddle~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.bark~.mxo",
 				"type" : "iLaX"
 			}
  ],
