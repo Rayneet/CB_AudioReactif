@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 423.0, 171.0, 53.0, 22.0 ],
+					"text" : "zl.filter 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-83",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1232.0, 79.0, 60.0, 22.0 ],
+					"patching_rect" : [ 423.0, 95.0, 60.0, 22.0 ],
 					"text" : "zl.change"
 				}
 
@@ -57,8 +69,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1232.0, 121.0, 173.0, 22.0 ],
-					"text" : "OSC-route /playSet /masterVol"
+					"patching_rect" : [ 423.0, 138.0, 245.0, 22.0 ],
+					"text" : "OSC-route /replay/playSet /replay/masterVol"
 				}
 
 			}
@@ -69,7 +81,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1232.0, 30.0, 121.0, 22.0 ],
+					"patching_rect" : [ 423.0, 47.0, 121.0, 22.0 ],
 					"text" : "r fromRemoteControl"
 				}
 
@@ -608,6 +620,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"order" : 0,
 					"source" : [ "obj-35", 0 ]
@@ -790,7 +809,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
 

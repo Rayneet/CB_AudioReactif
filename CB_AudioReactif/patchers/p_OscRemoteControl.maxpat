@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 280.0, 279.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
 					"fontface" : 1,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.979388952255249, 75.474227786064148, 158.0, 20.0 ],
+					"patching_rect" : [ 340.0, 279.0, 158.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 204.0, 73.474227786064148, 73.0, 33.0 ],
@@ -89,7 +101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -0.020611047744751, 5.474227786064148, 159.0, 20.0 ],
+					"patching_rect" : [ 438.979388952255249, 0.0, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.020611047744751, 0.474227786064148, 200.0, 20.0 ],
 					"text" : "Remote Control",
@@ -731,6 +743,13 @@
 					"midpoints" : [ 9.5, 283.0, 205.5, 283.0 ],
 					"order" : 0,
 					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
