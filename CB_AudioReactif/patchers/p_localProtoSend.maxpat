@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 11,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -229,18 +229,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-56",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 814.982345581054688, 322.798440456390381, 61.0, 22.0 ],
-					"text" : "r toUnreal"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -455,19 +443,20 @@
 					"patching_rect" : [ 383.876071929931641, 105.0, 147.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.029315620660782, 92.930918593267506, 170.423386424779892, 43.0 ],
-					"text" : "127.0.0.1"
+					"text" : "192.168.50.51"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-224",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 305.876071929931641, 234.137932300567627, 97.0, 22.0 ],
-					"text" : "host 127.0.0.1"
+					"patching_rect" : [ 305.876071929931641, 234.137932300567627, 97.0, 35.0 ],
+					"text" : "host 192.168.50.51"
 				}
 
 			}
@@ -734,13 +723,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-175", 1 ],
-					"source" : [ "obj-56", 0 ]
 				}
 
 			}

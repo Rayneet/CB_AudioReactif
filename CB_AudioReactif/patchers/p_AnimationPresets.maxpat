@@ -112,8 +112,7 @@
 					"patching_rect" : [ 4.0, 451.586610317230225, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.310526315789502, 240.586610317230225, 161.378947368421024, 20.0 ],
-					"text" : "Start Animation",
-					"textjustification" : 0
+					"text" : "Start Animation"
 				}
 
 			}
@@ -138,8 +137,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, 200.0, 164.0, 22.0 ],
-					"text" : "prepend /animation/presetPP"
+					"patching_rect" : [ 276.0, 200.0, 183.0, 22.0 ],
+					"text" : "prepend /animation/startTimeline"
 				}
 
 			}
@@ -220,8 +219,7 @@
 					"patching_rect" : [ 2010.058193743228912, 268.363414794206619, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 21.586610317230225, 486.068421052631606, 20.0 ],
-					"text" : "Load Phase",
-					"textjustification" : 0
+					"text" : "Load Phase"
 				}
 
 			}
